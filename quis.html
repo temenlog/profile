@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<title>Загадки</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="header">
+		<a href="C:\xampp\htdocs\LS\index.html.html">Главная</a><span>/</span>
+        <a href="#">Загадки</a><span>/</span>
+		<a href="#">Рассчитай вклад</a><span>/</span>
+		<a href="#">Конвертер валют</a><span>/</span>
+	</div>
+<div id="content">
+	<h1>Загадки</h1>
+    <div id="center">
+		<script>
+var N = 0;
+var K = 0;
+var name = prompt("Как тебя зовут?");
+alert("Привет,"  + name + ".  Поиграем в загадки?");
+var a = prompt("У тебя есть три попытки для разгадывания каждой из загадок. Итак.......Загадка первая: Сто одежек и все без застежек");
+if (a=="капуста"){
+	alert("Верно!");
+	N++;
+} else {
+	alert("Неверно! Переходи к следующей загадке");
+	K++;
+}
+var b = prompt("Загадка вторая: Два конца, два кольца, посередине - гвоздик");
+if (b=="ножницы"){
+	alert("Верно!");
+	N++;	
+}else{
+	alert("Неверно!");
+	K++;
+}
+alert("А теперь подсчитаем количество верных и неверных ответов");
+alert("Верных ответов:" +N+"");
+alert("Неверных ответов:" +K+"");
+alert("Конец!")
+</script>
+
+        </div>
+    </div>
+</div>
+
+<div id="footer">
+	Copyright © 2016 <a href="https://geekbrains.ru/"> GeekBrains </a>
+</div>
+
+</body>
+</html>
